@@ -46,7 +46,7 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../dashboard/data_sewa_sepeda_clean.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/ArifRahmanHakima/ArifRahmanHakima-Submissionn-Arif-Rahman-Hakim/main/data_sewa_sepeda_clean.csv")
     return df
 
 day_df = load_data()
