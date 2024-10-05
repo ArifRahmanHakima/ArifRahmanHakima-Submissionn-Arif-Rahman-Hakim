@@ -62,7 +62,7 @@ rental_frequencies = rental_frequencies.sort_values('date')
 
 # Sidebar with Calendar and Menu
 with st.sidebar:
-    st.image("image/logo1.png")
+    st.image("https://raw.githubusercontent.com/ArifRahmanHakima/ArifRahmanHakima-Submissionn-Arif-Rahman-Hakim/dashboard/image/logo1.png")
     st.markdown("<h1 style='text-align: center;'> Bike Sharing</h1>", unsafe_allow_html=True)
     
     # Add calendar widget
